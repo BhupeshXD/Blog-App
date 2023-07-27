@@ -11,7 +11,7 @@ const CategoryPage = () => {
     const category = location.pathname.split("/").at(-1);
 
   return (
-    <div className="w-11/12 max-w-[680px] mx-auto flex flex-col justify-center items-center mt-[80px] mb-[20px]">
+    <div className="w-11/12 max-w-[680px] mx-auto flex flex-col justify-center items-center mt-[80px] mb-[50px]">
       <Header/>
       <div className="self-start mt-[10px]">
         <button className="border-2 border-gray-300 py-1 px-4 rounded-md"
